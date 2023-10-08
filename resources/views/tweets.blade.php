@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>ぼやいったー | 日々のぼやきを投稿しよう</title>
+        <title>ぼやいったー | 日々のぼやきを投稿しようねえ</title>
         <!-- Material Design for Bootstrap 読み込み 開始 -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
         <link rel="stylesheet" href="{{ asset('css/mdb.min.css') }}" />
