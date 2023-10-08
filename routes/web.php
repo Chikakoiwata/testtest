@@ -7,7 +7,7 @@ Route::get('/', function () {
     return view('top'); // welcome から top に変更
 });
 
-// グループで囲み、その中にエンドポイントを作成
+// グループで囲み、その中にエンドポイントを作成dayo
 Route::group(['middleware' => ['auth']], function () {
     Route::get('/tweets', [TweetController::class, 'index'])->name('tweets.index');
     Route::post('/tweets', [TweetController::class, 'store'])->name('tweets.store');
